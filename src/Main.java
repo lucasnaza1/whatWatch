@@ -19,5 +19,9 @@ public class Main {
                 revelando que um aprendiz segue seus passos ou que Jigsaw se disfarçou de vítima. 
                 """;
         System.out.println("Nome do filme: Saw\n" + "Avaliação : " + notaFilme + "\n" + " Média de Avaliação: " + media + "\n" + " Sinopse: " + sinopse);
+
+    int classificacao;
+        classificacao = (int) (media/2);
+                System.out.println(classificacao);
     }
 }
